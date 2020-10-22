@@ -1,0 +1,11 @@
+[package]
+name = "mobiledoc"
+version = "0.1.0"
+authors = ["Peter Goodspeed-Niklaus <peter.r.goodspeedniklaus@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+serde = { version = "1.0.117", features = [ "derive" ] }
+serde_json = "1.0.59"
+serde_tuple = "0.5.0"
+serde_repr = "0.1.6"
